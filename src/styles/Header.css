@@ -1,0 +1,134 @@
+.header1 {
+  width: 99vw;
+  height: 8vh;
+  color: white;
+  background-color: #191818;
+}
+.header1 img {
+  margin: 10px 18px;
+}
+.headline1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0;
+  padding: 32px;
+  background-color: #191818;
+
+  /* top: 10rem; */
+
+  /* align-items: center; */
+  /* border: 2px solid red; */
+  height: 34vh;
+  width: 27%;
+  border-radius: 10px;
+}
+.headline1 h2 {
+  background-color: #191818;
+
+  position: absolute;
+  font-size: 2em;
+  top: 18%;
+  /* left: 38%;  */
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container1 {
+  background-color: #191818;
+
+  /* width: 50%; */
+  min-height: 90vh;
+  /* border: 2px solid blue;     */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* position: relative; */
+}
+.login {
+  background-color: #191818;
+
+  display: flex;
+  position: absolute;
+  top: 30%;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.login form {
+  background-color: #191818;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.login form label {
+  background-color: #191818;
+
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.login form input {
+  display: block;
+  padding: 14px;
+  width: 25vw;
+  border-radius: 10px;
+}
+
+.login button {
+  color: white;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #19d43e;
+  border-radius: 34px;
+  height: 3rem;
+  margin: 20px;
+  cursor: pointer;
+}
+.login button:hover{
+  background-color:#188b2f ;
+}
+
+hr {
+  margin: 32px 100px;
+  position: absolute;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  border-image: initial;
+  border-top: 1px solid white;
+  bottom: 15rem;
+  /* background-color: red; */
+  width: 25rem;
+}
+.container2 {
+  display: flex;
+  border: 2px solid orange;
+  height: 30vh;
+}
+.with {
+  /* position: absolute;
+  top: 65%;
+  left: 20%; */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3px;
+
+  width: 25vw;
+  height: 37px;
+  border: 2px solid red;
+  border-radius: 20px;
+}
+.with h3 {
+  color: white;
+  margin: 8px;
+}

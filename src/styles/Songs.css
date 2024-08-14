@@ -1,0 +1,91 @@
+.container h2 {
+  background-color: #0f0e0e;
+}
+
+.cards {
+  background-color: #0f0e0e;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 77vh;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #191818;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0f0e0e;
+}
+
+.card {
+  display: flex;
+  width: 11vw;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid gray;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-top: 2rem;
+  height: 35vh;
+}
+.poster {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0e0e;
+  height: 25vh;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 11vw;
+}
+.poster img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card span {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 8px; */
+  border-radius: 10px;
+  /* position: fixed; */
+}
+
+.play {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  /* top: 5%; */
+  left: 35%;
+  bottom: 19%;
+  cursor: pointer;
+  width: 3vw;
+}
+.player {
+  position: relative;
+  top: 16%;
+  width: 70vw;
+  height: 11vh;
+  background-color: #0f0e0e;
+  border-radius: 2rem;
+  margin: 2rem;
+  border: 2px solid;
+  bottom: 4;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    justify-content: center;
+  }
+}

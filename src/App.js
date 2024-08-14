@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./styles/App.css";
+import Main from "./components/Main";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Signup from "./components/Signup";
 
-function App() {
+import CreateSong from "./components/createSong/createSong";
+import Login from "./components/login/login";
+const App = () => {
+  const [posterId, setPosterId] = useState(null);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route
+          path="/createSong"
+          element={<CreateSong/>}
+        />
+        <Route path="/" element={<Main />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,64 @@
+.right {
+  color: white;
+  width: 75vw;
+  min-height: 98vh;
+  border-radius: 10px;
+  background-color: #0f0e0e;
+  margin: 9px;
+}
+.container {
+  display: flex;
+}
+.nav {
+  display: flex;
+  background-color: #191818;
+  justify-content: space-between;
+  min-height: 6vh;
+  padding: 6px 12px;
+  border-radius: 10px;
+}
+.bgcolor {
+  background-color: #191818;
+}
+.icons {
+  display: flex;
+  gap: 6px;
+  padding: 10px 8px;
+  background-color: #191818;
+}
+.buttons {
+  display: flex;
+  gap: 13px;
+  padding: 6px;
+}
+.buttons button {
+  /* color: white; */
+  padding: 6px;
+  border-radius: 17px;
+  width: 5rem;
+}
+.bg {
+  color: black;
+  cursor: pointer;
+
+  background-color: white;
+}
+.bg1 {
+  background-color: #191818;
+  color: white;
+  cursor: pointer;
+}
+.bg1:hover {
+  background-color: white;
+  color: #191818;
+}
+
+.bg:hover {
+  background-color: #191818;
+  color: white;
+}
+
+.all-songs {
+  margin: 17px;
+  background-color: #191818;
+}
